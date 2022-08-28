@@ -1,0 +1,12 @@
+.card-list {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+  @include laptop {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    margin-bottom: 50px;
+  }
+}
